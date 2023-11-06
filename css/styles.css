@@ -110,6 +110,12 @@ h1, .subtitle {
     justify-content: space-around;
 }
 
+@media screen and (max-width:1000px) {
+    .plans-section {
+        flex-direction: column;
+    }
+}
+
 .price-box {
     display: flex;
     flex-direction: column;
@@ -191,6 +197,7 @@ h1, .subtitle {
 
 .domain h2, .message h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 .domain p {
@@ -225,6 +232,13 @@ h1, .subtitle {
     font-size: 17px;
 }
 
+@media screen and (max-width:1000px) {
+    #search-domain input[type="submit"] {
+
+        font-size: 10px;
+    }
+}
+
 .message {
     margin-top: 70px;
     display: flex;
@@ -235,6 +249,7 @@ h1, .subtitle {
 
 .message p {
     font-size: 20px;
+    text-align: center;
 }
 
 #message-form {
